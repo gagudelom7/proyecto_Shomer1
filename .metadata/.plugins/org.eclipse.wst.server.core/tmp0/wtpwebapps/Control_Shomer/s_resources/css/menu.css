@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+  background-image: url(../img/shomer1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+ 
+}
+
+/* Se usa la pseudo clase Root con la propiedad scroll behavior el cual permite controlar el comportamiento del scroll */
+/* :root{
+    scroll-behavior: smooth;
+     overflow: hidden;
+} */
+
+/* Declaramos los estilos del banner principal*/
+.header{
+    height: 100vh; /*viewport-height) = Altura de la ventana gráfica */
+    background-image: /*linear-gradient(to right, rgba(252, 252, 252, 0.5) 0%, rgba(238, 238, 221, 0.5)100%), */ url(../imagen/shomer1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+/* se crea la clase burger correspondiente al menu del sistema */
+.burger{
+    position: fixed; /*esta funcion permite que el menu este fijo en toda la pagina al hacer scroll*/
+    /*z-index: 10; este parametro hace que aparezca el menu encima del desplazamiento del menu*/
+    top: 30px;
+    right: 30px;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+/* Declaramos los estilos para los enlaces del menu */
+.menu-navegacion{
+    position: fixed;
+    z-index: 10; /*este parametro permite que aparezca el menu encima del desplazamiento*/
+    top: 0;
+    right: 0;
+    width: 22vw;
+    height: 100%;
+    background-image: linear-gradient(135deg, #030f44 0%, #124204 100%);
+    display: flex;
+    flex-direction: column; /*Direcciona los textos del menu*/
+    justify-content: space-evenly; /*Reparte espacio equitativamente dentro del menu*/
+    align-items: center;
+    /* transition: transform .3s ease-in-out; */
+    transform: translate(110%);
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+/* Agregamos una clase que haga que cuando se le da click al boton este aparezca el menu */
+.spread{
+    transform: translate(0);
+}
+
+/* La siguiente clase realiza los cambios en los elementos que estan dentro del menu de navegacion */
+.menu-navegacion a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo2{
+	width: 130px;
+    height: 130px; 
+	display:block;
+    margin:auto;
+    position: relative; /* Ubica el elemento dentro del banner unido a la etiqueta TOP */
+    top: 80px;
+}
+
+/* Declaramos los estilos de la etiquete H1 ubicado en el banner principal*/
+.titulo{
+	padding-top: 55px;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #fff;
+    text-align:center;
+    position: relative; /* Ubica el elemento dentro del banner unido a la etiqueta TOP */
+    top: 50px;
+}
+
+/* Declaramos los estilos de la etiqueta p ubicado en el banner principal*/
+.copy{
+	padding-top: 15px;
+    font-weight: 30;
+    font-size: 25px;
+    color: #f1f1f1;
+    text-align:center;
+    position: relative; /* Ubica el elemento dentro del banner unido a la etiqueta TOP */
+    top: 30px;
+}
+
+.seccion{
+	color: #00ff00;
+	position: relative;
+    top: 20px;
+    
+}

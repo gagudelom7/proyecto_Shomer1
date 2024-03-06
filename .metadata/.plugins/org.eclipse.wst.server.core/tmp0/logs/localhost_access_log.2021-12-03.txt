@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [03/Dec/2021:01:04:32 -0500] "GET /Control_Shomer/Logoutsystem HTTP/1.1" 200 -
+127.0.0.1 - - [03/Dec/2021:01:04:55 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/Dec/2021:01:05:05 -0500] "GET /Control_Shomer/Logoutsystem HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [03/Dec/2021:01:05:06 -0500] "GET /Control_Shomer/Logoutsystem HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [03/Dec/2021:01:05:09 -0500] "GET /Control_Shomer/ HTTP/1.1" 200 1828
+0:0:0:0:0:0:0:1 - - [03/Dec/2021:01:05:44 -0500] "POST /Control_Shomer/ControladorLogin HTTP/1.1" 200 1537
+0:0:0:0:0:0:0:1 - - [03/Dec/2021:01:05:44 -0500] "GET /Control_Shomer/s_resources/imagen/shomer1.jpg HTTP/1.1" 404 736
+0:0:0:0:0:0:0:1 - - [03/Dec/2021:01:05:47 -0500] "GET /Control_Shomer/Logoutsystem HTTP/1.1" 200 1862

@@ -1,0 +1,16 @@
+<context>
+
+	<Resource name="jdbc/shomer1" auth="Container" type="javax.sql.DataSource"
+	
+		maxActive="10" maxIdle="3" maxWait="3000"
+		
+		username="postgres" password="Ing7Blessedman"
+		
+		driverClassName="org.postgresql.Driver"
+		
+		url="jdbc:postgresql://localhost:5432/shomerBackup">
+		
+		
+		</Resource>
+
+</context>

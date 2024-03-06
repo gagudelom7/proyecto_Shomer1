@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/shomer1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.logo2{
+	width: 100px;
+    height: 100px; 
+	display:block;
+    position: relative;
+    top: -30px;
+   	left: 55px;
+}
+.titulo{
+	text-align: center;
+	color: #ffffff;
+	position: relative; /* Ubica el elemento dentro del banner unido a la etiqueta TOP */
+    top: 50px;
+}
+.cabecera {
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff;
+	background-color: #000000;
+}
+
+label{
+    color: #ffff;
+}
+.dataTables_wrapper .dataTables_length select {
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 5px;
+    /* background-color: transparent; */
+    background-color: #fff;
+    padding: 4px;
+}
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #fff;
+    margin-left: 3px;
+}
+#tablaShomer_info{
+	 color: #fff;
+}
+select{
+	color: #fff;
+}
+#tablaShomer_info{
+	color: #fff;
+}
+search {
+   background-color: green;
+}
+
+input {
+  color: #fff;
+}
+
+#tablaShomer_previous #tablaShomer_next a{
+	 color: #fff;
+}

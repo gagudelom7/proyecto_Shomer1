@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/shomer1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.logo2{
+	width: 100px;
+    height: 100px; 
+	display:block;
+    position: relative;
+     top: -30px;
+   	left: 55px;
+}
+
+/* lista Visitante */
+.cabecera {
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff;
+	/* background-color: rgb( 255 0 0 / 0%); */
+}
+
+.filas {
+	text-align: center;
+	color: #ffffff;
+	
+	/* background-color: #1CDFE4; */
+}
+
+.titulo{
+	text-align: center;
+	color: #ffffff;
+	position: relative; /* Ubica el elemento dentro del banner unido a la etiqueta TOP */
+    top: 50px;
+}
+
+table {
+	  
+  	float: left;
+	border-collapse: collapse;
+	position: relative; /* Ubica el elemento dentro del banner unido a la etiqueta TOP */
+    top: 320px; 
+    position: fixed;
+    z-index: 10;
+  	left: 100px;
+}
+
+td {
+  margin: 15px;
+  padding: 15px;
+  border: white 1px solid;
+}
+
+.contenedorBoton {
+	margin-left: 10px;
+	position: relative;
+    top: 25px;
+}
+
+.container{
+	margin-right: 130px;
+	margin-top: -20px;
+    padding: 5px;
+}
+
+label{
+	color: #ffff;
+}
+
+.buscar{
+	display: flex;
+	position: relative;
+    top: -55px;
+    padding-left: 10px
+}
+
